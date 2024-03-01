@@ -7,7 +7,11 @@ const genreSchema = new mongoose.Schema({
     required: true,
     minlength: 5,
     maxlength: 50
-  }
+    },
+    _id: {
+        type: mongoose.Schema.ObjectId
+
+    }
 });
 
 const Genre = mongoose.model('Genre', genreSchema);
