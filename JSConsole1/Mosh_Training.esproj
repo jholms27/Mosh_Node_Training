@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.94-alpha">
+  <ItemGroup>
+    <Folder Include="Asynchronous_Javascript\6.1_Async_Javascript\" />
+    <Folder Include="Asynchronous_Javascript\6.7- Replacing Promises\" />
+    <Folder Include="Asynchronous_Javascript\6.11- Async and Await\" />
+    <Folder Include="Asynchronous_Javascript\6.12- Exercise\" />
+    <Folder Include="CRUD_Operations_Using_Mongoose\7.14_Exercise_Solution\" />
+    <Folder Include="CRUD_Operations_Using_Mongoose\7.15_Exercise_Solution\" />
+    <Folder Include="CRUD_Operations_Using_Mongoose\7.16_Exercise_Solution\" />
+    <Folder Include="express-demo\routes\" />
+    <Folder Include="Asynchronous_Javascript\async-demo\" />
+    <Folder Include="Mongo - Data Validation\8.9_Restructuring\" />
+    <Folder Include="Mongo - Data Validation\Project_8.7_Persistence\" />
+    <Folder Include="Mongoose-Modeling Relationships\9.4_Embedding_Documents\" />
+    <Folder Include="Mongoose-Modeling Relationships\9.2_Referencing_Documents\" />
+    <Folder Include="Mongoose-Modeling Relationships\Project_9.6_MovieRental\After\" />
+    <Folder Include="Node_Package_Manager\npm-testing\" />
+    <Folder Include="Mongo - Data Validation\Project_8.8_Customers_API\" />
+    <Folder Include="Vidly\views\" />
+    <Folder Include="Vidly\routes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="Project_9.6\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Project_9.6\**" />
+  </ItemGroup>
+</Project>
