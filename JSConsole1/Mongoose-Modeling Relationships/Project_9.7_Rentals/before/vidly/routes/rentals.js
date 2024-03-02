@@ -117,4 +117,4 @@ module.exports = router;
 
 asd12
 
-  new committed
+  new commit
