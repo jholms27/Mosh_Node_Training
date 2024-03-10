@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.94-alpha">
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.94-alpha">
   <ItemGroup>
     <Folder Include="Asynchronous_Javascript\6.1_Async_Javascript\" />
     <Folder Include="Asynchronous_Javascript\6.7- Replacing Promises\" />
@@ -14,9 +14,10 @@
     <Folder Include="Mongoose-Modeling Relationships\9.4_Embedding_Documents\" />
     <Folder Include="Mongoose-Modeling Relationships\9.2_Referencing_Documents\" />
     <Folder Include="Mongoose-Modeling Relationships\Project_9.6_MovieRental\After\" />
-    <Folder Include="Unit Testing\" />
     <Folder Include="Node_Package_Manager\npm-testing\" />
     <Folder Include="Mongo - Data Validation\Project_8.8_Customers_API\" />
+    <Folder Include="Unit Testing\12.6_Writing_Your_First_Test\tests\" />
+    <Folder Include="Unit Testing\before\vidly\tests\" />
     <Folder Include="Vidly\views\" />
     <Folder Include="Vidly\routes\" />
   </ItemGroup>
