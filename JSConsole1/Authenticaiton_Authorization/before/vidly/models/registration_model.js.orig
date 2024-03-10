@@ -1,0 +1,62 @@
+const Joi = require('joi');
+const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken')
+const config = require('config')
+
+registrationSchema = new mongoose.Schema({
+
+    name: {
+
+        type: String,
+        required: true,
+<<<<<<< HEAD
+        minlength: 5
+=======
+        minlength:5
+>>>>>>> 7e2b1d6 (Added Sect_11_Handling_Errors_Content)
+
+    },
+
+    email: {
+
+        type: String,
+<<<<<<< HEAD
+        unique: true
+=======
+        unique:true
+>>>>>>> 7e2b1d6 (Added Sect_11_Handling_Errors_Content)
+
+    },
+
+    password: {
+
+        type: String,
+        required: true
+
+    }
+})
+registrationSchema.methods.generateAuthToken = function () {
+
+    token = jwt.sign({ id: this._id }, config.get('jwtPrivateKey'));
+    return token;
+}
+
+const Registration = mongoose.model('Registration', registrationSchema );
+
+function validateRegistration(registration) {
+  const schema = {
+    name: Joi.string().required(),
+      email: Joi.string().required().email(),
+    password: Joi.string().required().min(8)
+  };
+
+  return Joi.validate(registration, schema);
+}
+
+exports.Registration = Registration; 
+<<<<<<< HEAD
+exports.validateRegistration = validateRegistration;
+//exports.generateAuthToken = registrationSchema.generateAuthToken
+=======
+exports.validateRegistration = validateRegistration;
+>>>>>>> 7e2b1d6 (Added Sect_11_Handling_Errors_Content)
