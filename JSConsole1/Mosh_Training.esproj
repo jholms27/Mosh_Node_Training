@@ -14,7 +14,6 @@
     <Folder Include="Mongoose-Modeling Relationships\9.4_Embedding_Documents\" />
     <Folder Include="Mongoose-Modeling Relationships\9.2_Referencing_Documents\" />
     <Folder Include="Mongoose-Modeling Relationships\Project_9.6_MovieRental\After\" />
-    <Folder Include="Handling and Logging Errors\" />
     <Folder Include="Node_Package_Manager\npm-testing\" />
     <Folder Include="Mongo - Data Validation\Project_8.8_Customers_API\" />
     <Folder Include="Vidly\views\" />
