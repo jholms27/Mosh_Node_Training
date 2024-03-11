@@ -17,7 +17,6 @@
     <Folder Include="Node_Package_Manager\npm-testing\" />
     <Folder Include="Mongo - Data Validation\Project_8.8_Customers_API\" />
     <Folder Include="Unit Testing\12.6_Writing_Your_First_Test\tests\" />
-    <Folder Include="Unit Testing\before\vidly\tests\" />
     <Folder Include="Vidly\views\" />
     <Folder Include="Vidly\routes\" />
   </ItemGroup>
